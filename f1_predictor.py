@@ -495,20 +495,20 @@ def main():
                 
                 for idx, row in predictor.grid_2025.iterrows():
                     if idx % 2 == 0:
-                        with col1:
-                            pos = st.number_input(
-                                f"{row['driver_name']} ({row['team_name']})",
-                                min_value=1,
-                                max_value=20,
-                                value=idx + 1
-                            )
-                    else:
-                        with col2:
-                            pos = st.number_input(
-                                f"{row['driver_name']} ({row['team_name']})",
-                                min_value=1,
-                                max_value=20,
-                                value=idx + 1
+    with col1:
+        pos = st.number_input(
+            f"{row['driver_name']} ({row['team_name']})",
+            min_value=1,
+            max_value=20,
+            value=min(idx + 1, 20)  # S'assure que la valeur ne dépasse pas 20
+        )
+else:
+    with col2:
+        pos = st.number_input(
+            f"{row['driver_name']} ({row['team_name']})",
+            min_value=1,
+            max_value=20,
+            value=min(idx + 1, 20)  # S'assure que la valeur ne dépasse pas 20
                             )
                     qualifying_results[row['driverId']] = pos
             
