@@ -1,4 +1,4 @@
-race_name,date,position,driver_name,team_name
+race_name,date,position,driver_name,team_name,fastest_lap
 Australian Grand Prix,2025-03-16,1,Lando Norris,McLaren,
 Australian Grand Prix,2025-03-16,2,Max Verstappen,Red Bull Racing,
 Australian Grand Prix,2025-03-16,3,George Russell,Mercedes,
