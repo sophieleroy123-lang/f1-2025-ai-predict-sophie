@@ -488,32 +488,35 @@ def main():
             modify_grid = st.checkbox("Modify Grid Positions")
             
             qualifying_results = None
-            if modify_grid:
-                st.write("Enter grid positions (1-20):")
-                col1, col2 = st.columns(2)
-                qualifying_results = {}
-                
-                for idx, row in predictor.grid_2025.iterrows():
-                    if idx % 2 == 0:
-    with col1:
-        pos = st.number_input(
-            f"{row['driver_name']} ({row['team_name']})",
-            min_value=1,
-            max_value=20,
-            value=min(idx + 1, 20)  # S'assure que la valeur ne dépasse pas 20
-        )
-else:
-    with col2:
-        pos = st.number_input(
-            f"{row['driver_name']} ({row['team_name']})",
-            min_value=1,
-            max_value=20,
-            value=min(idx + 1, 20)  # S'assure que la valeur ne dépasse pas 20
-                            )
-                    qualifying_results[row['driverId']] = pos
-            
-            if st.button("Predict Race Results"):
-                results = predictor.predict_2025_race(circuit, qualifying_results)
+if modify_grid:
+    st.write("Enter grid positions (1-20):")
+    col1, col2 = st.columns(2)
+    qualifying_results = {}
+    
+    max_drivers = len(predictor.grid_2025)  # Nombre total de pilotes
+    
+    for idx, row in predictor.grid_2025.iterrows():
+        default_value = min(idx + 1, max_drivers)  # S'assure de ne pas dépasser
+        
+        if idx % 2 == 0:
+            with col1:
+                pos = st.number_input(
+                    f"{row['driver_name']} ({row['team_name']})",
+                    min_value=1,
+                    max_value=max_drivers,
+                    value=default_value,
+                    key=f"driver_{idx}_pos"  # Clé unique pour chaque input
+                )
+        else:
+            with col2:
+                pos = st.number_input(
+                    f"{row['driver_name']} ({row['team_name']})",
+                    min_value=1,
+                    max_value=max_drivers,
+                    value=default_value,
+                    key=f"driver_{idx}_pos_alt"  # Clé unique pour chaque input
+                )
+        qualifying_results[row['driverId']] = pos
                 
                 if results is not None:
                     st.write(f"Predicted Race Results for {circuit}")
