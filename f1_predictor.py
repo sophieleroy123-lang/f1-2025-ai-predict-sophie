@@ -499,7 +499,7 @@ def main():
                             pos = st.number_input(
                                 f"{row['driver_name']} ({row['team_name']})",
                                 min_value=1,
-                                max_value=20,
+                                max_value=21,
                                 value=idx + 1
                             )
                     else:
@@ -507,7 +507,7 @@ def main():
                             pos = st.number_input(
                                 f"{row['driver_name']} ({row['team_name']})",
                                 min_value=1,
-                                max_value=20,
+                                max_value=21,
                                 value=idx + 1
                             )
                     qualifying_results[row['driverId']] = pos
