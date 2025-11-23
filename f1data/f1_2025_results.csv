@@ -439,18 +439,20 @@ São Paulo Grand Prix,2025-11-09,14,Fernando Alonso,Aston Martin,
 São Paulo Grand Prix,2025-11-09,15,Franco Colapinto,Alpine,
 São Paulo Grand Prix,2025-11-09,16,Lance Stroll,Aston Martin,
 São Paulo Grand Prix,2025-11-09,17,Yuki Tsunoda,Red Bull Racing,
-Las Vegas Grand Prix,2025-11-22,1,Max Verstappen,Oracle Red Bull Racing,1:33.365
-Las Vegas Grand Prix,2025-11-22,2,George Russell,Mercedes,1:34.592
-Las Vegas Grand Prix,2025-11-22,3,Kimi Antonelli,Mercedes,1:33.998
-Las Vegas Grand Prix,2025-11-22,4,Charles Leclerc,Ferrari,1:34.304
-Las Vegas Grand Prix,2025-11-22,5,Carlos Sainz,Williams,1:34.496
-Las Vegas Grand Prix,2025-11-22,6,Isack Hadjar,Racing Bulls,1:34.620
-Las Vegas Grand Prix,2025-11-22,7,Nico Hulkenberg,Kick Sauber,1:34.592
-Las Vegas Grand Prix,2025-11-22,8,Lewis Hamilton,Ferrari,1:34.553
-Las Vegas Grand Prix,2025-11-22,9,Esteban Ocon,Haas,1:34.557
-Las Vegas Grand Prix,2025-11-22,10,Oliver Bearman,Haas,1:34.519
-Las Vegas Grand Prix,2025-11-22,11,Fernando Alonso,Aston Martin,1:35.629
-Las Vegas Grand Prix,2025-11-22,12,Yuki Tsunoda,Oracle Red Bull Racing,1:34.967
-Las Vegas Grand Prix,2025-11-22,13,Pierre Gasly,Alpine,1:35.674
-Las Vegas Grand Prix,2025-11-22,14,Liam Lawson,Racing Bulls,1:34.837
-Las Vegas Grand Prix,2025-11-22,15,Franco Colapinto,Alpine,1:35.780
+race_name	date	position	driver_name	team_name	fastest_lap
+Las Vegas Grand Prix	2025-11-22	1	Max Verstappen	Red Bull Racing	1:33.365
+Las Vegas Grand Prix	2025-11-22	2	George Russell	Mercedes	1:34.592
+Las Vegas Grand Prix	2025-11-22	3	Kimi Antonelli	Mercedes	1:33.998
+Las Vegas Grand Prix	2025-11-22	4	Charles Leclerc	Ferrari	1:34.304
+Las Vegas Grand Prix	2025-11-22	5	Carlos Sainz	Williams	1:34.496
+Las Vegas Grand Prix	2025-11-22	6	Isaac Hadjar	RB	1:34.620
+Las Vegas Grand Prix	2025-11-22	7	Nico Hulkenberg	Kick Sauber	1:34.592
+Las Vegas Grand Prix	2025-11-22	8	Lewis Hamilton	Ferrari	1:34.553
+Las Vegas Grand Prix	2025-11-22	9	Esteban Ocon	Haas	1:34.557
+Las Vegas Grand Prix	2025-11-22	10	Ollie Bearman	Haas	1:34.519
+Las Vegas Grand Prix	2025-11-22	11	Fernando Alonso	Aston Martin	1:35.629
+Las Vegas Grand Prix	2025-11-22	12	Yuki Tsunoda	Red Bull Racing	1:34.967
+Las Vegas Grand Prix	2025-11-22	13	Pierre Gasly	Alpine	1:35.674
+Las Vegas Grand Prix	2025-11-22	14	Liam Lawson	RB	1:34.837
+Las Vegas Grand Prix	2025-11-22	15	Gabriel Bortoleto	Kick Sauber	1:35.780
+
