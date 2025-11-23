@@ -33,7 +33,7 @@ F1_CALENDAR_2025 = [
     "United States Grand Prix - Austin (19 Oct) - COMPLETED",
     "Mexico City Grand Prix - Mexico City (26 Oct) - COMPLETED",
     "São Paulo Grand Prix - São Paulo (9 Nov) - COMPLETED",
-    "Las Vegas Grand Prix - Las Vegas (22 Nov)",
+    "Las Vegas Grand Prix - Las Vegas (22 Nov) - COMPLETED",
     "Qatar Grand Prix - Lusail (30 Nov)",
     "Abu Dhabi Grand Prix - Yas Marina (7 Dec)"
 ]
